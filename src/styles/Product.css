@@ -1,0 +1,17 @@
+.product__row {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: baseline;
+}
+.product__image {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+.product__card {
+    width: fit-content;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
